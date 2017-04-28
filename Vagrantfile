@@ -93,9 +93,9 @@ Vagrant.configure(2) do |config|
     #unzip 0.12.93.zip
     #ln -s BeLL-Apps-* BeLL-Apps ## won't work in windows
     #cd BeLL-Apps-0.12.91
-    git clone https://github.com/open-learning-exchange/BeLL-Apps.git
+    git clone https://github.com/paulbert/BeLL-Apps.git
     cd BeLL-Apps
-    git checkout 99999-grunt
+    git checkout dev
     cd app
     #sudo apt install python-lxml
     python minify_html.py
